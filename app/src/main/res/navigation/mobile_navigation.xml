@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="io.github.nikulshinip.cottage.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_heating"
+        android:name="io.github.nikulshinip.cottage.ui.heating.HeatingFragment"
+        android:label="@string/heating"
+        tools:layout="@layout/fragment_heating" />
+
+    <fragment
+        android:id="@+id/nav_cellar"
+        android:name="io.github.nikulshinip.cottage.ui.cellar.CellarFragment"
+        android:label="@string/cellar"
+        tools:layout="@layout/fragment_cellar" />
+
+    <fragment
+        android:id="@+id/nav_temps"
+        android:name="io.github.nikulshinip.cottage.ui.temps.TempsFragment"
+        android:label="@string/temps"
+        tools:layout="@layout/fragment_temps" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="io.github.nikulshinip.cottage.ui.setting.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>

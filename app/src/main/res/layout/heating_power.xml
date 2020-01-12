@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_text_size"
+        android:text="@string/power"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/power_lamp_margin">
+        
+        <ImageView
+            android:id="@+id/power_lamp1"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+
+        <ImageView
+            android:id="@+id/power_lamp2"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+
+        <ImageView
+            android:id="@+id/power_lamp3"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+
+        <ImageView
+            android:id="@+id/power_lamp4"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+
+        <ImageView
+            android:id="@+id/power_lamp5"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+
+        <ImageView
+            android:id="@+id/power_lamp6"
+            android:layout_width="@dimen/power_lamp_width"
+            android:layout_height="@dimen/power_lamp_height"
+            android:layout_margin="@dimen/power_lamp_margin"
+            android:src="@drawable/power_lamp_no"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/power_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center|start"/>
+
+        <SeekBar
+            android:id="@+id/power_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/seek_bar_pading"
+            android:progressTint="@color/colorPrimary"
+            android:thumbTint="@color/colorPrimary"
+            android:max="6"/>
+
+    </LinearLayout>
+
+</LinearLayout>

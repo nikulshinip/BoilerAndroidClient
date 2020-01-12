@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:background="@color/white"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_val"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_text_size" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/t_boiler"/>
+
+            <TextView
+                android:id="@+id/t_boiler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/t_return"/>
+            <TextView
+                android:id="@+id/t_return"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/t_output"/>
+            <TextView
+                android:id="@+id/t_output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/t_sensor"/>
+            <TextView
+                android:id="@+id/t_sensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

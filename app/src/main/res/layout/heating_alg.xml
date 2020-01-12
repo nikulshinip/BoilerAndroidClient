@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:background="@color/white"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/alg"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/boiler_alg_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/alg_room"/>
+
+        <RadioButton
+            android:id="@+id/boiler_alg_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/alg_return"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/alg_room_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/alg_room_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center|start"/>
+
+        <SeekBar
+            android:id="@+id/alg_room_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/seek_bar_pading"
+            android:progressTint="@color/colorPrimary"
+            android:thumbTint="@color/colorPrimary"
+            android:max="35"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/alg_return_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/alg_return_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center|start"/>
+
+        <SeekBar
+            android:id="@+id/alg_return_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/seek_bar_pading"
+            android:progressTint="@color/colorPrimary"
+            android:thumbTint="@color/colorPrimary"
+            android:max="20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

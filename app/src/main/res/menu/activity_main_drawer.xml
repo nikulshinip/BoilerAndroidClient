@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_heating"
+            android:icon="@drawable/ic_heating"
+            android:title="@string/heating" />
+        <item
+            android:id="@+id/nav_cellar"
+            android:icon="@drawable/ic_cellar"
+            android:title="@string/cellar" />
+        <item
+            android:id="@+id/nav_temps"
+            android:icon="@drawable/ic_temp"
+            android:title="@string/temps" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/setting" />
+    </group>
+
+</menu>

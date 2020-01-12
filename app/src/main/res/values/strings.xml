@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cottage</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="refresh">Обновить</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="heating">Отопление</string>
+    <string name="cellar">Погребок</string>
+    <string name="temps">Температуры</string>
+    <string name="setting">Настройки</string>
+
+    <string name="on_off_heating">Включение отключение отопления</string>
+    <string name="temp_val">Показания температур</string>
+    <string name="t_boiler">Температура котла</string>
+    <string name="t_return">Температура обратки</string>
+    <string name="t_output">Температура выхода котла</string>
+    <string name="t_sensor">Температура комнаты</string>
+    <string name="celsius">°C</string>
+    <string name="power">Мощность котла</string>
+    <string name="alg">Алгоритм работы котла</string>
+    <string name="alg_room">По температуре комнаты</string>
+    <string name="alg_return">По температуре обратки</string>
+    <string name="apply">Применить</string>
+
+    <string name="min_temp">Минимальная температура</string>
+    <string name="max_temp">Максимальная температура</string>
+    
+    <string name="setting_address">Адрес сервера</string>
+    <string name="setting_user_name">Имя пользователя</string>
+    <string name="setting_user_password">Пароль</string>
+    <string name="check_connecting">Проверить соединение</string>
+    <string name="save">Сохранить</string>
+    <string name="action_settings">setting</string>
+
+    <string name="setting_save">Настройки сохранены.</string>
+    <string name="connecting_susses_setting_save">Соединение установленно, настройки сохранены.</string>
+    <string name="error_connecting">Ошибка соединения с сервером.</string>
+    <string name="error_save_setting">Ошибка при сохранении настроек.</string>
+
+    <string name="error_save_parameters">Ошибка при передаче параметров.</string>
+    <string name="apply_parameters">Параметры были применены.</string>
+</resources>

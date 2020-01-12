@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:background="@color/white"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size"
+        android:text="@string/min_temp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/min_temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size"/>
+
+        <SeekBar
+            android:id="@+id/min_temp_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/seek_bar_pading"
+            android:progressTint="@color/colorPrimary"
+            android:thumbTint="@color/colorPrimary"
+            android:max="9"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size"
+        android:text="@string/max_temp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/max_temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size"/>
+
+        <SeekBar
+            android:id="@+id/max_temp_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/seek_bar_pading"
+            android:progressTint="@color/colorPrimary"
+            android:thumbTint="@color/colorPrimary"
+            android:max="9"/>
+
+    </LinearLayout>
+</LinearLayout>
